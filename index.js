@@ -56,6 +56,7 @@ module.exports = function(windowObject) {
     }
 
     return {
+        name: 'Google Analytics',
 
         /**
          * Google Analytics page-tracking implementation.

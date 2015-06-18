@@ -17,6 +17,10 @@ describe('Tracktics Google Analytics Plugin', function() {
 
     function shouldImplementGoogleAnalytics() {
 
+        it('should define name', function() {
+            expect(subject.name).toBe('Google Analytics');
+        });
+
         describe('#trackPage()', function() {
             var url;
 
